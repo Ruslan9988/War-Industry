@@ -1,0 +1,9 @@
+Name A2USMC
+ShortName A2USMC
+Icon US
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.A2USMC
+ArmourTexture A2USMCWdl
+Description Camoflauge: MARPAT Woodland_Year(s): 2004-Present_Project: Arma II Pack

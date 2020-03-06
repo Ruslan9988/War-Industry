@@ -1,0 +1,14 @@
+Name Parts_Seat
+ShortName parts_seat
+Icon 4876_Parts_Seat
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10017
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 64
+RecipeOutput 2
+Recipe I iron L leather
+// LI
+//LLI
+//III

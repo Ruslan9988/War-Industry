@@ -1,0 +1,9 @@
+Name 10PLA
+ShortName 10PLA
+Icon CN
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.10PLA
+ArmourTexture 10PLA
+Description Camoflauge: Type 07 Woodland_Year(s): 2007-Present_Project: Custom Armor 1.0

@@ -1,0 +1,9 @@
+Name CWSovietAfghan
+ShortName CWSovietAfghan
+Icon USSR
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.CWSovietAfghan
+ArmourTexture CWSovietAfghan
+Description Camoflauge: Khaki_Year(s): 1979-1989_Project: Cold War Pack

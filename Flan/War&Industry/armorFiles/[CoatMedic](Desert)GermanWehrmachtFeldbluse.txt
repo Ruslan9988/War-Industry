@@ -1,0 +1,9 @@
+Name German Wehrmacht Schütze Feldbluse
+ShortName GermanCoatMedicDesert
+ItemID 31257
+Icon GermanDesertCoatMedic
+Colour 255 255 255
+Type Body
+Defence 0.15
+ArmourTexture WehrmachtSchuetzeDesert
+Model mineworld.GermanFeldbluseMedic

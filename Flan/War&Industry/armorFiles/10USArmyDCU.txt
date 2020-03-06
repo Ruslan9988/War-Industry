@@ -1,0 +1,9 @@
+Name 10USArmyDCU
+ShortName 10USArmyDCU
+Icon US
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.10USArmyDCU
+ArmourTexture 10USArmyDCU
+Description Camoflauge: DCU Desert_Year(s): 2001-2005_Project: Custom Armor 1.0

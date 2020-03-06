@@ -1,0 +1,50 @@
+Name Lee Enfield
+ShortName LeeEnfield
+//The ammo this gun uses (shortName)
+Ammo LeeEnfieldAmmo
+Icon LeeEnfield_Icon
+YearIntroduced 1895
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 23667
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 80
+//The amount of gun recoil, all relative
+Recoil 6
+//Damage in half hearts
+Damage 1
+NumAmmoSlots 2
+NumAmmoItemsInGun 2
+LoadIntoGun 2
+//The higher this value, the more the bullets spread
+Accuracy 1
+//Time in ticks between rounds
+ShootDelay 20
+ShootSound RifleFire
+ReloadSound RifleReload
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 40.0
+Scope None
+Deployable False
+DeployedModel None
+//Model settings
+Model gwp.LeeEn
+Texture LeeEn_Model
+ModelScale 0.20
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+//AllowAttachments 
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1
+//Bullet Casing
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+
+//Muzzle Flashes
+FlashModel W44.W44MuzzleFlash
+FlashTexture Skin44_MuzzleFlash1

@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanStahlhelmGlassesFeldgrau
+ItemID 31255
+Icon GermanFeldgrauHelmetGlasses
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture StahlhelmWehrmachtFeldgrau2
+Model mineworld.StahlhelmGlasses

@@ -1,0 +1,37 @@
+Name HydraRocketPod
+ShortName HydraPod
+//The ammo this gun uses (shortName)
+Ammo HydraRocket
+Ammo dummyammo
+Icon RocketPod
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10811
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 9999
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 25
+//Damage in half hearts
+Damage 1
+IgnoreArmorProbability 0.5
+IgnoreArmorDamageFactor 1.0
+//The higher this value, the more the bullets spread
+Accuracy 3
+//Time in ticks between rounds
+ShootDelay 1
+ShootSound RPGShoot
+ReloadSound BazookaReload
+ReloadSoundRange 5
+GunSoundRange 400
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 2.5
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.25
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model None

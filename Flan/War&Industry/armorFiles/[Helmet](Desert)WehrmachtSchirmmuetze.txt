@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanSchirmmuetzeDesert
+ItemID 31255
+Icon GermanOfficerCapDesert
+Colour 255 255 255
+Type Helmet
+Defence 0.05
+ArmourTexture SchirmmuetzeDesert
+Model mineworld.GermanSchirmmuetze

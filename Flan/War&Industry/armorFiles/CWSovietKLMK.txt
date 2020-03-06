@@ -1,0 +1,9 @@
+Name CWSovietKLMK
+ShortName CWSovietKLMK
+Icon USSR
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.CWSovietKLMK
+ArmourTexture CWSovietKLMK
+Description Camoflauge: KLMK Woodland_Year(s): 1969-1991_Project: Cold War Pack

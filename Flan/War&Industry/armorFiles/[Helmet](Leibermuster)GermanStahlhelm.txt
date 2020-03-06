@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanStahlhelmLeibermuster
+ItemID 31255
+Icon GermanLeibermusterHelmet
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture StahlhelmLeibermuster
+Model mineworld.StahlhelmCamo

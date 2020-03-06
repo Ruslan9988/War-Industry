@@ -1,0 +1,44 @@
+Name 125mm 3VBM17_Shell[AP]
+ShortName 125mm_3vbm17_shell[ap]
+Description DamageVsLiving 200_DamageVsVehicles 5000_Explosion 3_ExplosionDamageVsLiving 1.75_ExplosionDamageVsPlayer 1.75_ExplosionDamageVsPlane 1.75_ExplosionDamageVsVehicle 1.75
+Model Bullet
+//Colour of icon and model
+Colour 255 255 255
+ItemID 12136
+Icon 3VBM17
+//How affected by gravity the bullet is
+FallSpeed 0.30
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 16
+//The maximum stack size of a stack of these
+MaxStackSize 8
+//The damage multiplier caused by the bullet on hitting an entity
+DamageVsLiving 200
+DamageVsVehicles 5000
+//Size of explosion caused
+Explosion 3
+ExplosionDamageVsLiving 1.75
+ExplosionDamageVsPlayer 1.75
+ExplosionDamageVsPlane 1.75
+ExplosionDamageVsVehicle 1.75
+//True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
+ExplodeOnImpact True
+Fuse 200
+FlakParticles 35
+//Amount of fire to spread on exploding; for each increment, it will increase the dimensions of the burning area by 2. i.e. 1 will burn a 3x3 square, 2 will burn a 5x5 square
+Fire 0
+BreaksGlass True
+//Size of box to check for entities to hit / detonate
+HitBoxSize 0.5
+HitSound bomb
+//Whether or not the bullet can travel through an entity having hit it
+Penetrates False
+SmokeTrail True
+//True if this is a bomb
+Bomb False
+Shell True
+//RecipeOutput 5
+//Recipe I iron G gunpowder
+// I 
+// I
+//GIG

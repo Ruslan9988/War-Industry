@@ -1,0 +1,9 @@
+Name 10CanadianArmy
+ShortName 10CanadianArmy
+Icon CAN
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.10CanadianArmy
+ArmourTexture 10CanadianArmy
+Description Camoflauge: CADPAT Woodland_Year(s): 2004-Present_Project: Custom Armor 1.0

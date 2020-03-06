@@ -1,0 +1,9 @@
+Name 10GermanArmy
+ShortName 10GermanArmy
+Icon FRG
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.10GermanArmy
+ArmourTexture 10GermanArmy
+Description Camoflauge: Flecktarn Woodland_Year(s): 1993-Present_Project: Custom Armor 1.0

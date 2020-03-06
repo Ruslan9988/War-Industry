@@ -1,0 +1,117 @@
+﻿//---Standard Vehicle Config for Flans Mod--------
+//Created by Minecraft-SMP Toolbox 2.0.0.0
+
+
+//---Standard-------------------------------------
+// Naming
+Name Panzerkampfwagen VI Tiger - Version E
+ShortName WW2_Vehicle_TigerI_1A
+
+
+// Visuals
+Model Manus_WW2.Vehicle.WW2_Vehicle_TigerI_1
+Icon Icon_WW2_Vehicle_TigerI_1A
+
+
+// Recipe
+
+
+//Misc
+
+//------------------------------------------------
+
+//---Driveables-----------------------------------
+//Visuals
+Texture Skin_WW2_Vehicle_TigerI_1A
+
+
+//Movement
+MaxThrottle 0.5
+MaxNegativeThrottle 0.3
+Drag 1.0
+
+
+//Wheels
+WheelPosition 0 -36 -8 -35
+WheelPosition 1 -36 -8 35
+WheelPosition 2 42 -8 35
+WheelPosition 3 42 -8 -35
+WheelRadius 1.0
+WheelSpringStrength 0.5
+
+
+//Inventory Slots
+FuelTankSize 2500
+CargoSlots 0
+ShellSlots 5
+
+
+//Recipe
+AddRecipeParts turret 1 SMP_Part_Turret_Tank 14 SMP_Part_Mat_Armor_Steel
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 18 SMP_Part_Mat_Armor_Steel
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack
+AddDye 10 gray
+
+
+//Floating
+
+
+//Weapons
+AllowAllAmmo False
+AddAmmo 44_88APShell
+AddGun 30 32 7 turret 44_Mg42
+BarrelPosition 0 32 0
+ShellDelay 110
+ShootDelay 5
+
+
+//Driver and Passengers
+Driver 0 34 0 -360 360 -10 20
+RotatedDriverOffset -9 0 -9
+Passengers 1
+Passenger 1 33 12 17 core -30 30 -10 10 44_Mg42 FrontMG
+GunOrigin 1 52 18 11
+
+
+//Sounds
+StartSound Engine
+StartSoundLength 20
+EngineSound Engine
+EngineSoundLength 20
+ShellSound TankShell
+
+
+//Health and collision
+SetupPart turret 400 -32 26 -23 56 15 46
+SetupPart leftTrack 300 -53 -10 21 106 22 15
+SetupPart core 700 -53 -3 -20 113 28 40
+SetupPart rightTrack 300 -53 -10 -36 106 22 15
+BulletDetection 7
+
+
+//Misc
+CameraDistance 7.5
+
+//------------------------------------------------
+
+//---Vehicle--------------------------------------
+//Visuals
+RotateWheels True
+
+
+//Movement
+FourWheelDrive true
+TurnLeftSpeed 1
+TurnRightSpeed 1
+
+
+//Sound
+ShellSound TankShell
+ShootSound bullet
+
+
+//Misc
+Tank true
+
+//------------------------------------------------

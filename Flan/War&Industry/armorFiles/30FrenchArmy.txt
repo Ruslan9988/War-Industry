@@ -1,0 +1,9 @@
+Name 30FrenchArmy
+ShortName 30FrenchArmy
+Icon FR
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.30FrenchArmy
+ArmourTexture 30FrenchArmy
+Description Camoflauge: CCE Woodland_Year(s): 2010-Present_Project: Custom Armor 3.0

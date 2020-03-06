@@ -1,0 +1,9 @@
+Name German Feldhose
+ShortName GermanFeldhoseBlack
+ItemID 31256
+Icon GermanBlackPants
+Colour 255 255 255
+Type Pants
+Defence 0.1
+ArmourTexture FeldhoseBlack
+Model mineworld.SkinArmor

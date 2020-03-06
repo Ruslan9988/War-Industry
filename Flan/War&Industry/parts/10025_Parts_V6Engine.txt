@@ -1,0 +1,17 @@
+Name Parts_V6Engine
+ShortName parts_v6engine
+Icon 4884_Parts_V6Engine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10025
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Engine
+EngineSpeed 1.2
+FuelConsumption 1.0
+WorksWith vehicles planes
+StackSize 64
+RecipeOutput 1
+Recipe B bedrock I iron P parts_piston
+//PIP
+//PBP
+//PIP

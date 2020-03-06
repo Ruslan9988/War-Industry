@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanStahlhelmFallschirmjaeger
+ItemID 31255
+Icon GermanFallschirmjaegerHelmet
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture StahlhelmFallschirmjaeger
+Model mineworld.StahlhelmFallschirmjaeger

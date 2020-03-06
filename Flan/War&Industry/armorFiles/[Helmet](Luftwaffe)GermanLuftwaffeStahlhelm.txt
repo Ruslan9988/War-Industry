@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanLuftwaffeStahlhelm
+ItemID 31255
+Icon GermanLuftwaffeHelmet
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture StahlhelmLuftwaffe
+Model mineworld.Stahlhelm

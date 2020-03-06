@@ -1,0 +1,9 @@
+Name A2RussiaMVD
+ShortName A2RussiaMVD
+Icon RU
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.A2RussiaMVD
+ArmourTexture A2RussiaMVD
+Description Camoflauge: Partizan_Year(s): 2004-2010_Project: Arma II Pack

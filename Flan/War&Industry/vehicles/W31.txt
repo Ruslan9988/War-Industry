@@ -1,0 +1,135 @@
+//Naming
+
+Name Mercedes Benz W31 G4
+
+ShortName W31
+
+ItemID 29420
+
+//Visuals
+
+Icon IconW31
+
+Model Akaku.W31
+
+Texture SkinW31
+
+RotateWheels true
+
+//Third Person Camera Distance
+
+CameraDistance 7.0
+
+//Throttle
+MaxThrottle 1.0
+
+MaxNegativeThrottle 0.5
+
+//Steering modifiers
+
+TurnLeftSpeed 1
+
+TurnRightSpeed 1
+
+//Drag
+
+Drag 1.0
+
+//Mass (In tons)
+
+Mass 1.0
+
+//Moment of Inertia (in crazy units. Just fiddle with this until you find something nice)
+
+MomentOfInertia 10.0
+
+//More bounciness means the vehicle will bounce more upon going up slopes, but fall through the ground less
+
+Bounciness 0.3
+
+//For calculating whether wheels are on the ground or not for driving
+
+WheelRadius 0.5
+
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+
+WheelPosition 0 -38 -8 -13
+
+WheelPosition 1 -38 -8 13
+
+WheelPosition 2 35 -8 13
+
+WheelPosition 3 35 -8 -13
+
+WheelSpringStrength 0.5
+
+//If true, then all wheels will apply drive forces
+
+FourWheelDrive false
+
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+
+FuelTankSize 1000
+
+//Inventory Slots
+
+CargoSlots 36
+
+ShellSlots 0
+
+//Driver and passenger positions
+Driver 2 4 -6
+
+RotatedDriverOffset 0 0 0
+
+Passengers 5
+
+Passenger 1 2 4 6 core
+
+Passenger 2 -18 4 -6 core
+
+Passenger 3 -18 4 6 core
+
+Passenger 4 -31 4 -6 core
+
+Passenger 5 -31 4 6 core
+
+//Delays are in ticks or 1/20ths of seconds
+
+ShootDelay 999
+
+ShellDelay 999
+
+//Sounds
+
+StartSound Engine
+Start
+SoundLength 20
+
+EngineSound Engine
+
+EngineSoundLength 20
+
+ShootSound bullet
+
+ShellSound shell
+
+//Recipe
+
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 smallChassis 6 vehicleSeat 1 v8Engine
+AddRecipeParts frontLeftWheel 1 wheel
+AddRecipeParts frontRightWheel 1 wheel
+AddRecipeParts backLeftWheel 2 wheel
+AddRecipeParts backRightWheel 2 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 6 yellow
+//Health and collision
+SetupPart core 450 -49 -4 -14 95 20 28
+SetupPart backLeftWheel 250 -44 -10 -15 28 12 4
+SetupPart backRightWheel 250 -44 -10 11 28 12 4
+SetupPart frontRightWheel 150 29 -10 11 12 12 4
+SetupPart frontLeftWheel 150 29 -10 -15 12 12 4
+BulletDetection 5

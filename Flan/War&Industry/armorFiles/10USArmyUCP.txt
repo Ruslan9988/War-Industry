@@ -1,0 +1,9 @@
+Name 10USArmyUCP
+ShortName 10USArmyUCP
+Icon US
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.10USArmyUCP
+ArmourTexture 10USArmyUCP
+Description Camoflauge: UCP Universal_Year(s): 2005-2015_Project: Custom Armor 1.0

@@ -1,0 +1,11 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanStahlhelmGasmask
+ItemID 31255
+Icon GermanGasmask
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture StahlhelmWehrmacht2
+Model mineworld.GermanGasMask
+SmokeProtection True
+Overlay gasmask

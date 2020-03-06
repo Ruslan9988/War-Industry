@@ -1,0 +1,9 @@
+Name German Feldhose
+ShortName GermanFeldhoseEichenlaubmusterSpring
+ItemID 31256
+Icon GermanEichenlaubmuster2Pants
+Colour 255 255 255
+Type Pants
+Defence 0.1
+ArmourTexture FeldhoseEichenlaubmuster2
+Model mineworld.SkinArmor

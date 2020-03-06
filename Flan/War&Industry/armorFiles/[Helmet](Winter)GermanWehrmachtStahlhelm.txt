@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanStahlhelmWinter
+ItemID 31255
+Icon GermanSnowHelmetWehrmacht
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture StahlhelmWehrmachtSnow
+Model mineworld.Stahlhelm

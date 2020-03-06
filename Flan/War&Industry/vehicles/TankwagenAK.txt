@@ -1,0 +1,73 @@
+//Naming
+Name Opel Blitz Kfz 385 Tankwagen Afrikakorps
+ShortName TankwagenAK
+ItemID 29427
+//Visuals
+Icon IconTankwagenAK
+Model Akaku.TankwagenAK
+Texture SkinTankwagenAK
+RotateWheels true
+//Third Person Camera Distance
+CameraDistance 7.0
+//Throttle
+MaxThrottle 0.8
+MaxNegativeThrottle 0.5
+//Steering modifiers
+TurnLeftSpeed 1
+TurnRightSpeed 1
+//Drag
+Drag 12.0
+//Mass (In tons)
+Mass 4.0
+//Moment of Inertia (in crazy units. Just fiddle with this until you find something nice)
+MomentOfInertia 30.0
+//More bounciness means the vehicle will bounce more upon going up slopes, but fall through the ground less
+Bounciness 0.3
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 0.5
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -61 -8 -15
+WheelPosition 1 -61 -8 15
+WheelPosition 2 15 -8 15
+WheelPosition 3 15 -8 -15
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1500
+//Inventory Slots
+CargoSlots 36
+ShellSlots 0
+//Driver and passenger positions
+Driver -15 6 -6
+RotatedDriverOffset 0 0 0
+Passengers 1
+Passenger 1 -15 6 6 core
+//Delays are in ticks or 1/20ths of seconds
+ShootDelay 999
+ShellDelay 999
+//Sounds
+StartSound Engine
+StartSoundLength 20
+EngineSound Engine
+EngineSoundLength 20
+ShootSound bullet
+ShellSound shell
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 smallChassis 2 vehicleSeat 1 v6Engine
+AddRecipeParts frontLeftWheel 1 wheel
+AddRecipeParts frontRightWheel 1 wheel
+AddRecipeParts backLeftWheel 1 wheel
+AddRecipeParts backRightWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 10 yellow
+//Health and collision
+SetupPart core 400 -78 -3 -14 95 26 27
+SetupPart backLeftWheel 100 -62 -8 -15 16 16 4
+SetupPart backRightWheel 100 -62 -8 11 16 16 4
+SetupPart frontLeftWheel 100 -2 -10 -15 16 16 4
+SetupPart frontRightWheel 100 -2 -10 11 16 16 4
+BulletDetection 5

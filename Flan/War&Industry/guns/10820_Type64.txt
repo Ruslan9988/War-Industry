@@ -1,0 +1,58 @@
+Name AR_Type64
+ShortName ar_type64
+Description Damage x1.0_7.62mm 20RoundAmmo_ShootDelay 3
+//The ammo this gun uses _shortName_
+Ammo 7.62mm_20roundammo
+Ammo dummyammo
+Icon 4456_HAR_Type64
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10820
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 2.50
+RandomRecoilRange 1.00
+RandomRecoilYawRange 1
+DecreaseRecoil 0.75
+DecreaseRecoilYaw 1.75
+//Damage in half hearts
+Damage 1.0
+IgnoreArmorProbability 0.5
+IgnoreArmorDamageFactor 1.0
+//Modifiers
+MoveSpeedModifier 0.90
+MeleeDamage 0
+//The higher this value, the more the bullets spread
+Accuracy 1
+//Time in ticks between rounds
+ShootDelay 3
+ShootSound 4456_HAR_Type64Fire
+ReloadSound 4456_HAR_Type64Reload
+ReloadSoundRange 5
+GunSoundRange 400
+Mode FullAuto SemiAuto
+//Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
+Scope None
+ZoomLevel 1.0
+FOVZoomLevel 1.0
+//Deployable Settings
+Deployable False
+DeployedModel None
+//Model settings
+Model evp2.Type64
+Texture 4456_HAR_Type64
+ModelScale 0.6
+BulletSpeed 15.0
+ShowRecoil true
+ShowAccuracy true
+ShowReloadTime true
+//Attachment Settings
+AllowAllAttachments true
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+AllowAttachments flanMWSilencer flanMWRedDot flanMWACOG
+AllowBarrelAttachments true
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments true
+NumGenericAttachmentSlots 0

@@ -1,0 +1,14 @@
+Name Bandage
+ShortName Bandage
+Icon Bandage_Icon
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Fuel, Misc
+Category Misc
+ToolLife 1
+DestroyOnEmpty true
+Heal true
+HealAmount 5
+StackSize 10
+RecipeOutput 1
+ShapelessRecipe cloth cloth cloth string

@@ -1,0 +1,11 @@
+Name SpecialDiamond2
+ShortName specialdiamond2
+Icon SpecialDiamond2
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10055
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 64
+//RecipeOutput 1
+//Recipe

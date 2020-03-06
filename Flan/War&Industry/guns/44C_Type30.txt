@@ -1,0 +1,54 @@
+Name  Arisaka Type 30 
+ShortName 44C_Type30
+//The ammo this gun uses (shortName)
+Ammo 44C_Type30Ammo
+Icon 44C_ArisakaType30
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, MosinNagantSniper = 20
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 3
+//Time in ticks between rounds
+ShootDelay 40
+ShootSound MosinNagantShoot
+ReloadSound Kar98kReload
+Mode SemiAuto
+IgnoreArmorProbability 0.5
+IgnoreArmorDamageFactor 1.0
+//Modifiers
+MoveSpeedModifier 0.9
+//Bullet speed, default 3.0
+BulletSpeed 9.0
+Scope None
+Deployable False
+DeployedModel None
+Model W44C.ArisakaType30
+Texture Skin44C_ArisakaType30
+ModelScale 0.25
+AllowAttachments 44_OpticalSight
+AllowBarrelAttachments false
+AllowScopeAttachments true
+AllowStockAttachments false
+AllowGripAttachments false
+
+//Recoil
+Recoil 5
+RandomRecoilRange 1.25
+RandomRecoilYawRange 1.25
+DecreaseRecoil 2
+DecreaseRecoilYaw 1.0
+
+Description Japanese Bolt-Action Rifle
+
+ShowAccuracy true
+ShowReloadTime true
+DistortSound False
+ReloadSoundRange 5
+GunSoundRange 400
+
+//Server Stuff
+GunCategory 0

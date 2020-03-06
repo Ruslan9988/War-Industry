@@ -1,0 +1,112 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name IFV_BMP-2
+ShortName ifv_bmp-2
+ItemID 12011
+Description MAX HP:4250_CargoSlots 8_30mm 3UBR8 Shell[AP]_30mm UOR-84M Shell[HE]_BrowningM1919A4 Ammo
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon BMP2
+Model evp2.BMP2
+Texture BMP2
+RotateWheels True
+//Third Person Camera 
+Distance
+CameraDistance 7.5
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 1.50
+MaxNegativeThrottle 1.50
+//Steering modifiers
+TurnLeftSpeed 0.45
+TurnRightSpeed 0.45
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.5
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -32 -8 -21
+WheelPosition 1 -32 -8 21
+WheelPosition 2 32 -8 21
+WheelPosition 3 32 -8 -21
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+FloatOnWater true
+Buoyancy 0.06
+FloatOffset -1.0
+CanMountEntity false
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+PlaceTimePrimary 160
+ShootDelayPrimary 6
+ReloadTimePrimary 80
+PlaceTimeSecondary 160
+ShootDelaySecondary 2
+ReloadTimeSecondary 140
+BulletSpeed 7.00
+BulletSpread 0.75
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 21 24 0 turret
+ShootPointSecondary 21 24 -3 turret
+ShootParticlesPrimary explode 2 0 0
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 8
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo false
+AddAmmo 30mm_3ubr8_shell[ap]
+AddAmmo 30mm_uor-84_shell[he]
+AddAmmo browningm1919a4_ammo
+AddAmmo dummyammo
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 14 0 -360 360 -5 75
+RotatedDriverOffset -4 0 -7
+Passengers 6
+Passenger 1 -20 5 -6 core -360 360 -89 89 dummygun DummyGun
+Passenger 2 -20 5 6 core -360 360 -89 89
+Passenger 3 -28 5 -6 core -360 360 -89 89
+Passenger 4 -28 5 6 core -360 360 -89 89
+Passenger 5 -36 5 -6 core -360 360 -89 89
+Passenger 6 -36 5 6 core -360 360 -89 89
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound BMP_idle
+StartSoundLength 40
+EngineSound BMP_engine
+EngineSoundLength 40
+StartSoundRange 50
+EngineSoundRange 50
+BackSoundRange 50
+BackSoundLength 
+BackSound 
+PlaceSoundPrimary PlaceSound1
+ShootSoundPrimary BMP-2_30mm_fire
+ReloadSoundPrimary PG_reload
+PlaceSoundSecondary None
+ShootSoundSecondary 50calfire
+ReloadSoundSecondary HMG_BrowningM1919A4Reload2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 parts_tankturret 1 parts_tankbody 16 iron 2 parts_caterpillartrack
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+//AddDye 0 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 4250 -44 -10 -25 111 37 50
+BulletDetection 5
+IsExplosionWhenDestroyed true
+PlaceableOnLand true
+PlaceableOnSponge true
+CollisionDamageEnable true
+CollisionDamageThrottle 0.21
+CollisionDamageTimes 5

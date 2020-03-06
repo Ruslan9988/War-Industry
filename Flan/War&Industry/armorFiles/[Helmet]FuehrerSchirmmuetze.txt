@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanFuehrerSchirmmuetze
+ItemID 31255
+Icon GermanFuehrerCap
+Colour 255 255 255
+Type Helmet
+Defence 0.05
+ArmourTexture SchirmmuetzeFuehrer
+Model mineworld.GermanSchirmmuetze

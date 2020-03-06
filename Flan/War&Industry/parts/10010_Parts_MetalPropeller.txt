@@ -1,0 +1,14 @@
+Name Parts_MetalPropeller
+ShortName parts_metalpropeller
+Icon 4869_Parts_MetalPropeller
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10010
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Propeller
+StackSize 64
+RecipeOutput 1
+Recipe I iron
+// I 
+// I 
+//I I

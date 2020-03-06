@@ -1,0 +1,52 @@
+////Name and icon
+Name GeballteLadung
+ShortName GeballteLadung
+Icon GeballteLadung
+//Colour in Red, Green, Blue, each going up to 255
+Colour 255 255 255
+////Item and recipe
+ItemID 23570
+StackSize 2
+////Visuals
+Model mineworld.GeballteLadung
+Texture GeballteLadung
+TrailParticles false
+//TrailParticleType <particleType>
+ExplodeParticles 0
+//ExplodeParticleType <particleType>
+SmokeTime 0
+//SmokeParticleType <particleType>
+SpinWhenThrown true
+////Throwing
+ThrowDelay 10
+//ThrowSound <sound>
+//DropItemOnThrow <itemID.damage>
+////Physics
+DetonateOnImpact false
+Bounciness 0.7
+HitEntityDamage 1
+ThrowSpeed 1.5
+FallSpeed 1.0
+BreaksGlass true
+PenetratesBlocks false
+HitBoxSize 1
+Sticky false
+//BounceSound <sound>
+////Detonation conditions
+VehicleProximityTrigger -1.0
+LivingProximityTrigger -1.0
+Fuse 80
+DetonateWhenShot true
+Remote false
+//DespawnTime 0
+PrimeDelay 0
+////Detonation
+FireRadius 0.0
+ExplosionRadius 8.0
+ExplosionBreaksBlocks false
+explosionDamageVsLiving = 50F
+explosionDamageVsDriveable = 1000F
+//DropItemOnDetonate <itemID.damage>
+//Detonate Sound <sound>
+////Misc
+MeleeDamage 4

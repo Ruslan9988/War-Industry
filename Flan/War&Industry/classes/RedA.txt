@@ -1,0 +1,8 @@
+Name Assault
+ShortName RedAssault
+AddItem ar_hk416
+AddItem hg_sf1911
+AddItem grenade_m67 2
+AddItem m9bayonet
+AddItem 5.56mm_natoammo 4
+AddItem hg_sf1911_ammo 2

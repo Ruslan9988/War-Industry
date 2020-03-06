@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanGeneralSchirmmuetzeFeldgrau
+ItemID 31255
+Icon GermanOfficerCapFeldgrau
+Colour 255 255 255
+Type Helmet
+Defence 0.05
+ArmourTexture SchirmmuetzeFeldgrauGeneral
+Model mineworld.GermanSchirmmuetze

@@ -1,0 +1,113 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+//Naming
+Name Truck_Ural4320
+ShortName truck_ural4320
+ItemID 12001
+Description MAX HP:125_CargoSlots 16
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon UralC
+Model evp2.Ural4320C
+Texture Ural4320C
+RotateWheels True
+//Third Person Camera 
+Distance
+CameraDistance 7.5
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 1.2
+MaxNegativeThrottle 0.8
+//Steering modifiers
+TurnLeftSpeed 0.65
+TurnRightSpeed 0.65
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.5
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -40 -8 -14
+WheelPosition 1 -40 -8 14
+WheelPosition 2 42 -8 14
+WheelPosition 3 42 -8 -14
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank false
+FloatOnWater true
+Buoyancy 0.06
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Shell
+//Time between shots in 1/20ths of seconds
+PlaceTimePrimary 160
+ShootDelayPrimary 40
+ReloadTimePrimary 40
+PlaceTimeSecondary 160
+ShootDelaySecondary 40
+ReloadTimeSecondary 40
+BulletSpeed 4.00
+BulletSpread 1.00
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 24 0 0 core
+ShootPointSecondary 24 0 0 core
+ShootParticlesPrimary note 0 1 0
+ShootParticlesPrimary note 0 2 0
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 16
+BombSlots 0
+MissileSlots 1
+AllowAllAmmo False
+AddAmmo sound_horn
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1500
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 17 11 -8 -130 130 -20 85
+Passengers 7
+Passenger 1 17 11 8 core -130 130 -20 85 dummygun DummyGun
+Passenger 2 -15 19 -13 core -360 360 -90 85
+Passenger 3 -15 19 13 core -360 360 -90 85
+Passenger 4 -36 19 -13 core -360 360 -90 85
+Passenger 5 -36 19 13 core -360 360 -90 85
+Passenger 6 -54 19 -13 core -360 360 -90 85
+Passenger 7 -54 19 13 core -360 360 -90 85
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound Engine
+StartSoundLength 40
+EngineSound Engine
+EngineSoundLength 40
+StartSoundRange 50
+EngineSoundRange 50
+BackSoundRange 50
+BackSoundLength 
+BackSound 
+PlaceSoundPrimary PlaceSound1
+ShootSoundPrimary horn
+ReloadSoundPrimary PG_reload
+PlaceSoundSecondary None
+ShootSoundSecondary GetIn
+ReloadSoundSecondary None
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 parts_smallchassis 4 parts_smallwheel 8 iron
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+//AddDye 0 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 125 -60 -10 -20 120 43 40
+BulletDetection 5
+IsExplosionWhenDestroyed true
+PlaceableOnLand true
+PlaceableOnSponge true
+SquashMobs false
+BrakeSound Truck_Stop
+BrakeSoundRange 10
+BrakeSoundLength 120
+CollisionDamageEnable true
+CollisionDamageThrottle 0.50
+CollisionDamageTimes 5

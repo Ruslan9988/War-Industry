@@ -1,0 +1,14 @@
+Name Parts_WoodenTail
+ShortName parts_woodentail
+Icon 4888_Parts_WoodenTail
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10029
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Tail
+StackSize 64
+RecipeOutput 1
+Recipe W wood S stick
+  W
+WWW
+  S

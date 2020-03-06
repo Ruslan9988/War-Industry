@@ -1,0 +1,10 @@
+Name Eisernes Kreuz
+ShortName EisernesKreuz
+Icon EisernesKreuz
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 23699
+Heal false
+Repair false
+DestroyOnEmpty false
+StackSize 1

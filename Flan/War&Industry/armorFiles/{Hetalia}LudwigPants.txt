@@ -1,0 +1,9 @@
+Name German Feldhose
+ShortName LudwigFeldhose
+ItemID 31256
+Icon GermanForestPants
+Colour 255 255 255
+Type Pants
+Defence 0.1
+ArmourTexture Ludwig
+Model mineworld.SkinArmor

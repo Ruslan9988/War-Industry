@@ -1,0 +1,47 @@
+Name Luger P08
+ShortName P08
+//The ammo this gun uses (shortName)
+Ammo P08Ammo
+Icon P08_Icon
+YearIntroduced 1900
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 23667
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 60
+//The amount of gun recoil, all relative
+Recoil 2
+//Damage in half hearts
+Damage 7
+//The higher this value, the more the bullets spread
+Accuracy 4
+//Time in ticks between rounds
+ShootDelay 2
+ShootSound PistolFire
+ReloadSound PistolReload
+Mode SemiAuto
+//Bullet speed, default 3.0
+BulletSpeed 40.0
+Scope None
+Deployable False
+DeployedModel None
+//Model settings
+Model gwp.P08
+Texture Luger_Model
+ModelScale 0.20
+//Attachment Settings
+AllowAllAttachments false
+//List here all the attachments allowed on this gun by shortName and separated by spaces
+//AllowAttachments 
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+NumGenericAttachmentSlots 1
+//Bullet Casing
+CasingModel W44.W44BulletCasing
+CasingTexture Skin44_BulletCasing
+
+//Muzzle Flashes
+FlashModel W44.W44MuzzleFlash
+FlashTexture Skin44_MuzzleFlash1

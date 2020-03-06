@@ -1,0 +1,9 @@
+Name CWUKArmy
+ShortName CWUKArmy
+Icon UK
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.CWUKArmy
+ArmourTexture CWUKArmy
+Description Camoflauge: DPM Woodland_Year(s): 1986-1994_Project: Cold War Pack

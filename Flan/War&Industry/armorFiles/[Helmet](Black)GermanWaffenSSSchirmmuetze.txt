@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanSSSchirmmuetzeBlack
+ItemID 31255
+Icon GermanOfficerCapBlack
+Colour 255 255 255
+Type Helmet
+Defence 0.05
+ArmourTexture SchirmmuetzeSSBlack
+Model mineworld.GermanSchirmmuetze

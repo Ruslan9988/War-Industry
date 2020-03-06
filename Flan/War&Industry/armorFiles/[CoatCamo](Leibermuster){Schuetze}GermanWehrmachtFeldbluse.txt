@@ -1,0 +1,9 @@
+﻿Name German Wehrmacht Schütze Feldbluse
+ShortName GermanWehrmachtCoatSchuetzeLeibermuster
+ItemID 31257
+Icon GermanLeibermusterCoat
+Colour 255 255 255
+Type Body
+Defence 0.15
+ArmourTexture WehrmachtSchuetzeLeibermuster
+Model mineworld.GermanFeldbluseCamo

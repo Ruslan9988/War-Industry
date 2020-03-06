@@ -1,0 +1,14 @@
+Name Parts_TriplaneWing
+ShortName parts_triplanewing
+Icon 4882_Parts_TriplaneWing
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10023
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Wing
+StackSize 64
+RecipeOutput 1
+Recipe W parts_woodenwing S stick
+ W 
+SWS
+ W 

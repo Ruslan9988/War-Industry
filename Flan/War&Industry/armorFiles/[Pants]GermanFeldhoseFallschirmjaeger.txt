@@ -1,0 +1,9 @@
+Name German Feldhose
+ShortName GermanFeldhoseFallschirmjaeger
+ItemID 31256
+Icon GermanFallschirmjaegerPants
+Colour 255 255 255
+Type Pants
+Defence 0.1
+ArmourTexture FeldhoseFallschirmjaeger
+Model mineworld.SkinArmor

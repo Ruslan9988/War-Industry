@@ -1,0 +1,9 @@
+﻿Name German Wehrmacht Schütze Feldbluse
+ShortName GermanCoatRommel
+ItemID 31257
+Icon GermanDarkBrownCoat
+Colour 255 255 255
+Type Body
+Defence 0.15
+ArmourTexture RommelAfrikakorps2
+Model mineworld.Rommel

@@ -1,0 +1,148 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+//Naming
+Name SPG_BM-21 Grad
+ShortName spg_bm-21grad
+ItemID 12041
+Description MAX HP:500_122mm 9P132 Rocket[HE]
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon BM-21_Grad
+Model evp2.BM21
+Texture BM21
+RotateWheels True
+//Third Person Camera 
+Distance
+CameraDistance 7.5
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 1.2
+MaxNegativeThrottle 0.8
+//Steering modifiers
+TurnLeftSpeed 0.30
+TurnRightSpeed 0.30
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.5
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -40 -8 -14
+WheelPosition 1 -40 -8 14
+WheelPosition 2 42 -8 14
+WheelPosition 3 42 -8 -14
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank false
+FloatOnWater true
+Buoyancy 0.06
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+TurretOriginOffset -12 4 0
+TurretOrigin -39 13 0
+Primary Shell
+Secondary None
+//Time between shots in 1/20ths of seconds
+PlaceTimePrimary 360
+ShootDelayPrimary 8
+ReloadTimePrimary 360
+PlaceTimeSecondary 
+ShootDelaySecondary 
+ReloadTimeSecondary 
+BulletSpeed 4.00
+BulletSpread 5.00
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary -38 30 -11 turret
+ShootPointPrimary -38 30 -9 turret
+ShootPointPrimary -38 30 -6 turret
+ShootPointPrimary -38 30 -3 turret
+ShootPointPrimary -38 30 -1 turret
+ShootPointPrimary -38 30 2 turret
+ShootPointPrimary -38 30 4 turret
+ShootPointPrimary -38 30 7 turret
+ShootPointPrimary -38 30 9 turret
+ShootPointPrimary -38 30 12 turret
+ShootPointPrimary -38 28 -11 turret
+ShootPointPrimary -38 28 -9 turret
+ShootPointPrimary -38 28 -6 turret
+ShootPointPrimary -38 28 -3 turret
+ShootPointPrimary -38 28 -1 turret
+ShootPointPrimary -38 28 2 turret
+ShootPointPrimary -38 28 4 turret
+ShootPointPrimary -38 28 7 turret
+ShootPointPrimary -38 28 9 turret
+ShootPointPrimary -38 28 12 turret
+ShootPointPrimary -38 25 -11 turret
+ShootPointPrimary -38 25 -9 turret
+ShootPointPrimary -38 25 -6 turret
+ShootPointPrimary -38 25 -3 turret
+ShootPointPrimary -38 25 -1 turret
+ShootPointPrimary -38 25 2 turret
+ShootPointPrimary -38 25 4 turret
+ShootPointPrimary -38 25 7 turret
+ShootPointPrimary -38 25 9 turret
+ShootPointPrimary -38 25 12 turret
+ShootPointPrimary -38 23 -11 turret
+ShootPointPrimary -38 23 -9 turret
+ShootPointPrimary -38 23 -6 turret
+ShootPointPrimary -38 23 -3 turret
+ShootPointPrimary -38 23 -1 turret
+ShootPointPrimary -38 23 2 turret
+ShootPointPrimary -38 23 4 turret
+ShootPointPrimary -38 23 7 turret
+ShootPointPrimary -38 23 9 turret
+ShootPointPrimary -38 23 12 turret
+ShootParticlesPrimary cloud 3 0 0
+ShootParticlesPrimary cloud -1 0 0
+ShootParticlesPrimary cloud -2 0 0
+ShootParticlesPrimary explode 3 0 0
+ShootParticlesPrimary explode -1 0 0
+ShootParticlesPrimary explode -2 0 0
+ShootParticlesPrimary flame -1 0 0
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 24
+AllowAllAmmo false
+AddAmmo 122mm_9p132rocket[he]
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 17 11 -8 -115 115 5 45
+Passengers 1
+Passenger 1 17 11 8 nose -130 130 -89 89 dummygun DummyGun
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound Engine
+StartSoundLength 40
+EngineSound Engine
+EngineSoundLength 40
+StartSoundRange 50
+EngineSoundRange 50
+BackSoundRange 50
+BackSoundLength 
+BackSound 
+PlaceSoundPrimary PlaceSound2
+ShootSoundPrimary BM21fire
+ReloadSoundPrimary 28cm_Wurfgerat40_reload
+PlaceSoundSecondary none
+ShootSoundSecondary MG42Shoot
+ReloadSoundSecondary none
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 parts_tankturret 1 parts_tankbody 18 iron 4 parts_largewheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+//AddDye 0 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 500 -60 -10 -20 120 43 40
+BulletDetection 5
+IsExplosionWhenDestroyed true
+PlaceableOnLand true
+PlaceableOnSponge true
+CollisionDamageEnable true
+CollisionDamageThrottle 0.21
+CollisionDamageTimes 5

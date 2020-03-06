@@ -1,0 +1,9 @@
+﻿Name German Wehrmacht Schütze Feldbluse
+ShortName GermanSSCoatSchuetzeEichenlaubmusterSpring
+ItemID 31257
+Icon GermanEichenlaubmuster2Coat
+Colour 255 255 255
+Type Body
+Defence 0.15
+ArmourTexture WaffenSSSchuetzeEichenlaubmuster2
+Model mineworld.GermanFeldbluseCamo2

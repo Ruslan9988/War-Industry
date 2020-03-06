@@ -1,0 +1,14 @@
+Name Parts_V8Engine
+ShortName parts_v8engine
+Icon 4885_Parts_V8Engine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10026
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Engine
+EngineSpeed 1.4
+FuelConsumption 1.0
+WorksWith vehicles planes
+StackSize 64
+RecipeOutput 1
+//ShapelessRecipe parts_v4engine parts_v4engine

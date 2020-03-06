@@ -1,0 +1,72 @@
+//Naming
+Name Zundapp KS 750 S AfrikaKorps
+ShortName ZundappAK
+ItemID 29423
+//Visuals
+Icon IconZundappAK
+Model Akaku.ZundappAK
+Texture SkinZundappAK
+RotateWheels true
+//Third Person Camera Distance
+CameraDistance 5.0
+//Throttle
+MaxThrottle 0.8
+MaxNegativeThrottle 0.5
+//Steering modifiers
+TurnLeftSpeed 1
+TurnRightSpeed 1
+//Drag
+Drag 12.0
+//Mass (In tons)
+Mass 4.0
+//Moment of Inertia (in crazy units. Just fiddle with this until you find something nice)
+MomentOfInertia 30.0
+//More bounciness means the vehicle will bounce more upon going up slopes, but fall through the ground less
+Bounciness 0.3
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 0.5
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -23 -8 20
+WheelPosition 1 -23 -8 -7
+WheelPosition 2 18 -8 -7
+WheelPosition 3 10 -8 20
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive false
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 750
+//Inventory Slots
+CargoSlots 36
+ShellSlots 0
+//Driver and passenger positions
+Driver -8 6 -4
+RotatedDriverOffset 0 0 0
+Passengers 2
+Passenger 1 -10 2 11 core
+Passenger 2 -20 8 -4 core
+//Delays are in ticks or 1/20ths of seconds
+ShootDelay 999
+ShellDelay 999
+//Sounds
+StartSound Engine
+StartSoundLength 20
+EngineSound Engine
+EngineSoundLength 20
+ShootSound bullet
+ShellSound shell
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts core 1 smallChassis 3 vehicleSeat 1 rotaryEngine
+AddRecipeParts frontLeftWheel 1 wheel
+AddRecipeParts backLeftWheel 1 wheel
+AddRecipeParts backRightWheel 1 wheel
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+AddDye 4 gray
+//Health and collision
+SetupPart frontLeftWheel 100 8 -10 -5 14 14 2
+SetupPart backRightWheel 100 -23 -10 21 14 14 2
+SetupPart backLeftWheel 100 -25 -10 -5 14 14 2
+SetupPart core 250 -29 -7 -5 27 18 27
+BulletDetection 5

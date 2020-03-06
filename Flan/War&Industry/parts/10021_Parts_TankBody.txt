@@ -1,0 +1,14 @@
+Name Parts_TankBody
+ShortName parts_tankbody
+Icon 4880_Parts_TankBody
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10021
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Chassis
+StackSize 64
+RecipeOutput 1
+Recipe I iron D trapdoor R redstone
+//IDI
+//IRI
+//III

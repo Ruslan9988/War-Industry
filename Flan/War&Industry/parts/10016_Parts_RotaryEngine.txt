@@ -1,0 +1,17 @@
+Name Parts_RotaryEngine
+ShortName parts_rotaryengine
+Icon 4875_Parts_RotaryEngine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10016
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Engine
+EngineSpeed 1.5
+FuelConsumption 1.0
+WorksWith vehicles planes
+StackSize 64
+RecipeOutput 1
+//Recipe B bedrock P parts_piston
+//PPP
+//PBP
+//PPP

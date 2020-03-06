@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanStahlhelmSplittermuster
+ItemID 31255
+Icon GermanSplittermusterHelmet
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture StahlhelmSplittermuster
+Model mineworld.StahlhelmCamo

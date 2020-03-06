@@ -1,0 +1,116 @@
+﻿//---Standard Vehicle Config for Flans Mod--------
+//Created by Minecraft-SMP Toolbox 2.0.0.0
+
+
+//---Standard-------------------------------------
+// Naming
+Name Jagdpanzer IV/70 - Guderian Ente
+ShortName WW2_Vehicle_JagdpanzerIV_1A
+
+
+// Visuals
+Model Manus_WW2.Vehicle.WW2_Vehicle_JagdpanzerIV_1
+Icon Icon_WW2_Vehicle_JagdpanzerIV_1A
+
+
+// Recipe
+
+
+//Misc
+
+//------------------------------------------------
+
+//---Driveables-----------------------------------
+//Visuals
+Texture Skin_WW2_Vehicle_JagdpanzerIV_1A
+
+
+//Movement
+MaxThrottle 0.6
+MaxNegativeThrottle 0.3
+Drag 1.0
+
+
+//Wheels
+WheelPosition 0 -35 -8 -28
+WheelPosition 1 -35 -8 28
+WheelPosition 2 46 -8 28
+WheelPosition 3 46 -8 -28
+WheelRadius 1.0
+WheelSpringStrength 0.5
+
+
+//Inventory Slots
+FuelTankSize 2000
+CargoSlots 0
+ShellSlots 5
+
+
+//Recipe
+AddRecipeParts turret 1 SMP_Part_Turret_Tank 10 SMP_Part_Mat_Armor_Steel
+AddRecipeParts core 1 SMP_Part_Chassis_Tank 12 SMP_Part_Mat_Armor_Steel
+AddRecipeParts leftTrack 1 SMP_Part_Wheel_Tanktrack
+AddRecipeParts rightTrack 1 SMP_Part_Wheel_Tanktrack
+AddDye 10 gray
+
+
+//Floating
+
+
+//Weapons
+AllowAllAmmo False
+AddAmmo 44_75APShell
+BarrelPosition 0 34 0
+ShellDelay 110
+ShootDelay 5
+
+
+//Driver and Passengers
+Driver -4 17 13 0 0 -10 20
+RotatedDriverOffset 0 0 0
+Passengers 1
+Passenger 1 -9 21 -9 turret -50 50 -10 40 44_Mg42 MG42
+GunOrigin 1 -5 34 -9
+
+
+//Sounds
+StartSound Engine
+StartSoundLength 20
+EngineSound Engine
+EngineSoundLength 20
+ShellSound TankShell
+
+
+//Health and collision
+SetupPart turret 300 29 -1 -22 33 30 44
+SetupPart leftTrack 200 -55 -10 22 110 22 8
+SetupPart core 500 -48 -1 -22 77 30 44
+SetupPart rightTrack 200 -55 -10 -30 110 22 8
+BulletDetection 7
+
+
+//Misc
+CameraDistance 7.5
+
+//------------------------------------------------
+
+//---Vehicle--------------------------------------
+//Visuals
+RotateWheels True
+
+
+//Movement
+FourWheelDrive true
+TurnLeftSpeed 1
+TurnRightSpeed 1
+
+
+//Sound
+ShellSound TankShell
+ShootSound bullet
+
+
+//Misc
+Tank true
+
+//------------------------------------------------

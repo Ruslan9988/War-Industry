@@ -1,0 +1,9 @@
+Name CWDDRArmy
+ShortName CWDDRArmy
+Icon DDR
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.CWDDRArmy
+ArmourTexture CWDDRArmy
+Description Camoflauge: Strichtarn_Year(s): 1960s-1990_Project: Cold War Pack

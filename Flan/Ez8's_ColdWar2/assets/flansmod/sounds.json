@@ -1,0 +1,350 @@
+{
+	"30mmfire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:30mmfire" ]
+	},
+
+	"50calfire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:50calfire" ]
+	},
+
+	"BMP_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BMP_engine" ]
+	},
+
+	"BMP_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BMP_idle" ]
+	},
+
+	"Leo1_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Leo1_engine" ]
+	},
+
+	"Leo1_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Leo1_idle" ]
+	},
+
+	"M1fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1fire" ]
+	},
+
+	"M1Abrams_fire1": {
+		"category" : "player",
+		"sounds" : [ "M1Abrams_fire1" ]
+	},
+
+	"WoT_152mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_152mm" ]
+	},
+
+	"WoT_115-152mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_115-152mm" ]
+	},
+	"WoT_LightEngine": {
+		"category" : "player",
+		"sounds" : [ "WoT_LightEngine" ]
+	},
+
+	"WoT_LightEngine_Idle": {
+		"category" : "player",
+		"sounds" : [ "WoT_LightEngine_Idle" ]
+	},
+
+	"M1_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1_idle" ]
+	},
+
+	"M1_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M1_engine" ]
+	},
+
+	"M48_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M48_engine" ]
+	},
+
+	"M48_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M48_idle" ]
+	},
+
+	"M551_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M551_engine" ]
+	},
+
+	"M551_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:M551_idle" ]
+	},
+
+	"SovietTank_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SovietTank_engine" ]
+	},
+
+	"SovietTank_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SovietTank_idle" ]
+	},
+
+	"T62fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T62fire" ]
+	},
+
+	"T64_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T64_idle" ]
+	},
+
+	"T64_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T64_engine" ]
+	},
+
+	"T-64_fire1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T-64_fire1" ]
+	},
+
+	"ZSU23_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ZSU23_engine" ]
+	},
+
+	"ZSU23_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ZSU23_idle" ]
+	},
+
+	"ZSU23fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ZSU23fire" ]
+	},
+
+	"ZSU-23-4_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ZSU-23-4_reload" ]
+	},
+
+	"Panhard_178_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Panhard_178_PlaceSound" ]
+	},
+
+	"Panhard_178_IdleSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Panhard_178_IdleSound" ]
+	},
+
+	"Panhard_178_EngineSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Panhard_178_EngineSound" ]
+	},
+
+	"Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Engine" ]
+	},
+
+	"Helicopter_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Helicopter_engine" ]
+	},
+
+	"Helicopter_start": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Helicopter_start" ]
+	},
+
+	"PG_Hydra": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PG_Hydra" ]
+	},
+
+	"PG_Rocket_fire1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PG_Rocket_fire1" ]
+	},
+
+	"PG_Minigun": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PG_Minigun" ]
+	},
+
+	"4456_HAR_Type64Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4456_HAR_Type64Fire" ]
+	},
+
+	"4456_HAR_Type64Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:4456_HAR_Type64Reload" ]
+	},
+
+	"Cobra_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Cobra_engine" ]
+	},
+
+	"Mi24_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mi24_engine" ]
+	},
+
+	"WoT_85-107mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_85-107mm" ]
+	},
+
+	"cannon_30mm_mk103_38_loop": {
+		"category" : "player",
+		"sounds" : [ "flansmod:cannon_30mm_mk103_38_loop" ]
+	},
+
+	"AW_90mmFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:AW_90mmFire" ]
+	},
+
+	"pkm_shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:pkm_shoot" ]
+	},
+
+	"ATMissile": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ATMissile" ]
+	},
+
+	"Mortar1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mortar1" ]
+	},
+
+	"2B9_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:2B9_fire" ]
+	},
+
+	"BM21fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BM21fire" ]
+	},
+
+	"Plane_30mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Plane_30mm" ]
+	},
+
+	"Mig21": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig21" ]
+	},
+
+	"9K34_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:9K34_fire" ]
+	},
+
+	"ExplodeAir": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ExplodeAir" ]
+	},
+
+	"9M120_snd": {
+		"category" : "player",
+		"sounds" : [ "flansmod:9M120_snd" ]
+	},
+
+	"BMP-2_30mm_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BMP-2_30mm_fire" ]
+	},
+
+	"BTR-80_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BTR-80_fire" ]
+	},
+
+	"Lock": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Lock" ]
+	},
+
+	"Sa8_Lock": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Sa8_Lock" ]
+	},
+
+	"Flare": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Flare" ]
+	},
+
+	"Mi8_startup": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mi8_startup" ]
+	},
+
+	"Mi8_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mi8_engine" ]
+	},
+
+	"Mig15_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig15_engine" ]
+	},
+
+	"Mig15_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig15_idle" ]
+	},
+
+	"Mig23_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig23_idle" ]
+	},
+
+	"Mig_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Mig_engine" ]
+	},
+
+	"N37_Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:N37_Fire" ]
+	},
+
+	"NR23_Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:NR23_Fire" ]
+	},
+
+	"RocketLaunch_1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:RocketLaunch_1" ]
+	},
+
+	"GSh301_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:GSh301_fire" ]
+	},
+
+	"PlaneFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PlaneFire" ]
+	}
+}

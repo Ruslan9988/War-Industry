@@ -1,0 +1,107 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name LightTank_Pz.II F
+ShortName lighttank_pz.2f
+ItemID 11522
+Description MAX HP:3250_Pz.II F Shell[AP]__Pz.II F Shell[HE]_BrowningM1919A4 Ammo
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon IconPz2
+Model evp2.Pzkpfw2
+Texture Pzkpfw2
+RotateWheels True
+//Third Person Camera Distance
+CameraDistance 7.5
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 1.55
+MaxNegativeThrottle 0.75
+//Steering modifiers
+TurnLeftSpeed 0.35
+TurnRightSpeed 0.35
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.0
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -42 -8 -12
+WheelPosition 1 -42 -8 19
+WheelPosition 2 30 -8 19
+WheelPosition 3 30 -8 -12
+WheelSpringStrength 0.5
+//Bouncy bouncy
+Bounciness 0.3
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+PlaceTimePrimary 160
+ShootDelayPrimary 4
+ReloadTimePrimary 50
+PlaceTimeSecondary 160
+ShootDelaySecondary 2
+ReloadTimeSecondary 140
+BulletSpeed 7.00
+BulletSpread 0.75
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 28 18 -4 turret 
+ShootPointSecondary 22 18 5 turret 
+ShootParticlesPrimary explode 0 0 0
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 16
+AllowAllAmmo false
+AddAmmo pz.2f_shell[ap]
+AddAmmo pz.2f_shell[he]
+AddAmmo browningm1919a4_ammo
+AddAmmo dummyammo
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 9 0 -360 360 -9 20
+RotatedDriverOffset -2 9 2
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound Pz2_Idle
+StartSoundLength 40
+EngineSound Pz2_Engine
+EngineSoundLength 40
+StartSoundRange 50
+EngineSoundRange 50
+BackSoundRange 50
+BackSoundLength 
+BackSound 
+PlaceSoundPrimary Pz,IIF_PlaceSound
+ShootSoundPrimary 2cmKwK30_Shoot
+ReloadSoundPrimary Pz,IIF_reload
+PlaceSoundSecondary None
+ShootSoundSecondary HMG_BrowningM1919A4_fire2
+ReloadSoundSecondary HMG_BrowningM1919A4Reload2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 parts_tankturret 1 parts_tankbody 5 iron 2 parts_caterpillartrack
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+//AddDye 0 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 3250 -37 -10 -18 72 33 36
+BulletDetection 5
+BrakeSound Truck_Stop
+BrakeSoundRange 10
+BrakeSoundLength 120
+IsExplosionWhenDestroyed true
+PlaceableOnLand true
+PlaceableOnSponge true
+CollisionDamageEnable true
+CollisionDamageThrottle 0.21
+CollisionDamageTimes 5

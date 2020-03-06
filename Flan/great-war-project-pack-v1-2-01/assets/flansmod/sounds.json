@@ -1,0 +1,31 @@
+{
+	"MGReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BARReload" ]
+	},
+	
+	"MGFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BARShoot" ]
+	},
+	
+	"PistolReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:coltReload" ]
+	},
+	
+	"PistolFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:coltShoot" ]
+	},
+	
+	"RifleReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:kar98kReload" ]
+	},
+	
+	"RifleFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:kar98kShoot" ]
+	}
+}

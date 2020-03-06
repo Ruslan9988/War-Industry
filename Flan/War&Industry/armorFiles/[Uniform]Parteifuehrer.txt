@@ -1,0 +1,9 @@
+﻿Name German Wehrmacht Schütze Feldbluse
+ShortName ParteifuehrerUniform
+ItemID 31257
+Icon GermanBrownCoat
+Colour 255 255 255
+Type Body
+Defence 0.30
+ArmourTexture Parteifuehrer
+Model mineworld.Parteifuehrer

@@ -1,0 +1,17 @@
+Name Parts_V4Engine
+ShortName parts_v4engine
+Icon 4883_Parts_V4Engine
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10024
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Engine
+EngineSpeed 1.0
+FuelConsumption 1.0
+WorksWith vehicles planes
+StackSize 64
+RecipeOutput 1
+Recipe B bedrock I iron P parts_piston
+// B 
+//PIP
+//PIP

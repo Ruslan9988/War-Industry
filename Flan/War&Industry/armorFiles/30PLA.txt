@@ -1,0 +1,9 @@
+Name 30PLA
+ShortName 30PLA
+Icon CN
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.30PLA
+ArmourTexture 30PLA
+Description Camoflauge: Woodland_Year(s): 1979-1989_Project: Custom Armor 3.0

@@ -1,0 +1,56 @@
+{
+	"Ft17Move": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Ft17Move" ]
+	},
+
+	"Gun_R2S": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Gun_R2S" ]
+	},
+
+	"Gun_R3S": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Gun_R3S" ]
+	},
+
+	"Gun_R4S": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Gun_R4S" ]
+	},
+
+	"Gun_R6S": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Gun_R6S" ]
+	},
+
+	"HangYanShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:HangYanShoot" ]
+	},
+
+	"MGReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MGReload" ]
+	},
+
+	"MortarShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MortarShoot" ]
+	},
+
+	"MS1Move": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MS1Move" ]
+	},
+
+	"PTRDReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PTRDReload" ]
+	},
+
+	"PTRDShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PTRDShoot" ]
+	}
+}

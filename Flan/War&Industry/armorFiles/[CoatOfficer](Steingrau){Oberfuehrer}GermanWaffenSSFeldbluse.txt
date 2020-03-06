@@ -1,0 +1,9 @@
+Name German Wehrmacht Schütze Feldbluse
+ShortName GermanSSCoatOberfuehrer
+ItemID 31257
+Icon GermanCoat
+Colour 255 255 255
+Type Body
+Defence 0.15
+ArmourTexture WaffenSSOberfuehrer
+Model mineworld.GermanFeldbluseOfficer

@@ -1,0 +1,9 @@
+Name German Wehrmacht Schütze Feldbluse
+ShortName GermanSSCoatScharfuehrerBlack
+ItemID 31257
+Icon GermanBlackCoat
+Colour 255 255 255
+Type Body
+Defence 0.15
+ArmourTexture WaffenSSScharfuehrerBlack
+Model mineworld.GermanFeldbluse

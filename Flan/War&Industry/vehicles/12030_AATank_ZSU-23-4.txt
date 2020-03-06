@@ -1,0 +1,102 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name AATank_ZSU-23-4 Shilka
+ShortName aatank_zsu-23-4shilka
+ItemID 12030
+Description MAX HP:4250_23x152mm Ammo[AA]
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon ZSU23
+Model evp2.ZSU23v2
+Texture ZSU23v2
+RotateWheels True
+//Third Person Camera 
+Distance
+CameraDistance 7.5
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 1.5
+MaxNegativeThrottle 1.5
+//Steering modifiers
+TurnLeftSpeed 0.45
+TurnRightSpeed 0.45
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.5
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -32 -8 -18
+WheelPosition 1 -32 -8 18
+WheelPosition 2 32 -8 18
+WheelPosition 3 32 -8 -18
+WheelSpringStrength 0.5
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary None
+//Time between shots in 1/20ths of seconds
+PlaceTimePrimary 240
+ShootDelayPrimary 1
+ReloadTimePrimary 240
+PlaceTimeSecondary 
+ShootDelaySecondary 
+ReloadTimeSecondary 
+BulletSpeed 8.00
+BulletSpread 1.50
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary True
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 26 23 2 turret
+ShootPointPrimary 26 18 -3 turret
+ShootPointPrimary 26 23 -2 turret
+ShootPointPrimary 26 18 3 turret
+ShootPointSecondary None
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 16
+AllowAllAmmo false
+AddAmmo 23x152mm_ammo[aa]
+AddAmmo dummyammo
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver 0 15 0 -360 360 -5 85
+RotatedDriverOffset -12 0 -11
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound ZSU23_engine
+StartSoundLength 40
+EngineSound ZSU23_engine
+EngineSoundLength 40
+StartSoundRange 50
+EngineSoundRange 50
+BackSoundRange 50
+BackSoundLength 
+BackSound 
+PlaceSoundPrimary PlaceSound4
+ShootSoundPrimary ZSU23fire
+ReloadSoundPrimary ZSU-23-4_reload
+PlaceSoundSecondary None
+ShootSoundSecondary None
+ReloadSoundSecondary None
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 1 parts_tankturret 1 parts_tankbody 16 iron 2 parts_caterpillartrack
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+//AddDye 0 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 4250 -60 -10 -25 105 37 50
+BulletDetection 5
+IsExplosionWhenDestroyed true
+PlaceableOnLand true
+PlaceableOnSponge true
+CollisionDamageEnable true
+CollisionDamageThrottle 0.21
+CollisionDamageTimes 5

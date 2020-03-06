@@ -1,0 +1,9 @@
+Name 10RussianArmy
+ShortName 10RussianArmy
+Icon RU
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.10RussianArmy
+ArmourTexture 10RussianArmy
+Description Camoflauge: DigiFlora Woodland_Year(s): 2012-Present_Project: Custom Armor 1.0

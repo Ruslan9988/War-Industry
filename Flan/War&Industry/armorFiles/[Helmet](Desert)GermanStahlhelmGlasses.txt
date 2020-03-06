@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanStahlhelmGlassesDesert
+ItemID 31255
+Icon GermanDesertHelmetGlasses
+Colour 255 255 255
+Type Helmet
+Defence 0.1
+ArmourTexture StahlhelmWehrmachtDesert2
+Model mineworld.StahlhelmGlasses

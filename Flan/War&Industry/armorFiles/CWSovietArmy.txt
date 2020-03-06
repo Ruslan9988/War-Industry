@@ -1,0 +1,9 @@
+Name CWSovietArmy
+ShortName CWSovietArmy
+Icon USSR
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.CWSovietArmy
+ArmourTexture CWSovietArmy
+Description Camoflauge: Khaki_Year(s): 1969-1991_Project: Cold War Pack

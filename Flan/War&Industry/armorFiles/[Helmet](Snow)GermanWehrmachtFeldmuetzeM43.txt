@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanFeldmuetzeM43Snow
+ItemID 31255
+Icon GermanM43CapSnow
+Colour 255 255 255
+Type Helmet
+Defence 0.05
+ArmourTexture FeldmuetzeSnow
+Model mineworld.GermanFeldmuetzeM43

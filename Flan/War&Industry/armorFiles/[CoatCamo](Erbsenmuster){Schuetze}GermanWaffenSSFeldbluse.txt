@@ -1,0 +1,9 @@
+﻿Name German Wehrmacht Schütze Feldbluse
+ShortName GermanSSCoatSchuetzeErbsenmuster
+ItemID 31257
+Icon GermanErbsenmusterCoat
+Colour 255 255 255
+Type Body
+Defence 0.15
+ArmourTexture WaffenSSSchuetzeErbsenmuster
+Model mineworld.GermanFeldbluseCamo

@@ -1,0 +1,14 @@
+Name Parts_MetalCockpit
+ShortName parts_metalcockpit
+Icon 4867_Parts_MetalCockpit
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10008
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Cockpit
+StackSize 64
+RecipeOutput 1
+Recipe C minecart G glass
+// G 
+// C 
+//   

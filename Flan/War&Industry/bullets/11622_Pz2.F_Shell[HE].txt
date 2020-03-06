@@ -1,0 +1,44 @@
+Name Pz.II F_Shell[HE]
+ShortName pz.2f_shell[he]
+Description DamageVsLiving 50_DamageVsVehicles 80_DamageVsPlanes 50_Explosion 2_ExplosionDamageVsLiving 1.5_ExplosionDamageVsPlayer 1.5_ExplosionDamageVsPlane 4.0_ExplosionDamageVsVehicle 4.0
+Model cvts.MGBullet
+Texture MGBulletRed
+//Colour of icon and model
+Colour 255 255 255
+ItemID 11622
+Icon 20mmAmmo
+//How affected by gravity the bullet is
+FallSpeed 0.15
+//The maximum stack size
+MaxStackSize 1
+//The number of rounds each item has. Limited to 32000.
+RoundsPerItem 20
+//The damage multiplier caused by the bullet on hitting an entity
+DamageVsLiving 50
+DamageVsVehicles 35
+DamageVsPlanes 60
+//Size of explosion caused
+Explosion 2
+ExplosionDamageVsLiving 1.5
+ExplosionDamageVsPlayer 1.5
+ExplosionDamageVsPlane 4.0
+ExplosionDamageVsVehicle 4.0
+//True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
+ExplodeOnImpact False
+Fuse 400
+FlakParticles 10
+//Amount of fire to spread on exploding; for each increment, it will increase the dimensions of the burning area by 2. i.e. 1 will burn a 3x3 square, 2 will burn a 5x5 square
+Fire 0
+BreaksGlass False
+//Size of box to check for entities to hit / detonate
+HitBoxSize 0.5
+HitSound Exp20mm5
+HitSoundRange 50
+HitSoundEnable true
+EntityHitSoundEnable true
+//Whether or not the bullet can travel through an entity having hit it
+Penetrates False
+SmokeTrail False
+//True if this is a bomb
+Bomb False
+Shell True

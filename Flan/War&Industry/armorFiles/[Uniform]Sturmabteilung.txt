@@ -1,0 +1,9 @@
+Name German Wehrmacht Schütze Feldbluse
+ShortName SturmabteilungUniform
+ItemID 31257
+Icon Sturmabteilung
+Colour 255 255 255
+Type Body
+Defence 0.30
+ArmourTexture Sturmabteilung
+Model mineworld.Sturmabteilung

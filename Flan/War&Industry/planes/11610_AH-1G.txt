@@ -1,0 +1,151 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name AttackHeli_AH-1G HueyCobra
+ShortName attackheli_ah-1ghueycobra
+ItemID 11610
+Description MAX HP:250_FlareDelay 300_TimeFlareUsing 5s_PlaneAmmo Hydra70Rocket[HE]_PlaneAmmo Mk.4"MightyMouse"Rocket[HEAT]__PlaneAmmo M134MinigunAmmo
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon AH1G
+Model evp2.AH1Gv2
+Texture AH1Gv2
+//Third Person Camera Distance
+CameraDistance 12.0
+//Resting Pitch. Set this so the plane spawns level. It will fall onto its collision boxes automatically, but this lets you start it flat
+RestingPitch 0.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
+Mode Heli
+//Throttle
+MaxThrottle 2.75
+MaxNegativeThrottle 0.0
+//Yaw modifiers
+TurnLeftSpeed 2.2
+TurnRightSpeed 2.2
+//Pitch modifiers
+LookUpSpeed 0.8
+LookDownSpeed 0.8
+//Roll modifiers
+RollLeftSpeed 1.3
+RollRightSpeed 1.3
+//Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
+Drag 0.6
+//Lift
+//Lift 2.5
+//Wheels (Fake wheels imitating skids)
+NumWheels 4
+WheelPosition 0 -32 -8 -24
+WheelPosition 1 -32 -8 24
+WheelPosition 2 48 -8 24
+WheelPosition 3 48 -8 -24
+WheelSpringStrength 0.125
+//Propeller <ID> <x> <y> <z> <planePart> <recipeItem>
+HeliPropeller 0 0 48 0 blades parts_helicopterblade
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Shell
+Secondary Missile
+//Time between shots in 1/20ths of seconds
+PlaceTimePrimary 160
+ShootDelayPrimary 4
+ReloadTimePrimary 80
+PlaceTimeSecondary 240
+ShootDelaySecondary 50
+ReloadTimeSecondary 240
+BulletSpeed 5.00
+BulletSpread 0.75
+//Whether to alternate or fire all together
+AlternatePrimary True
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointSecondary 12 9 -25 rightWing
+ShootPointSecondary 12 9 25 leftWing
+ShootPointPrimary 12 6 -16 rightWing
+ShootPointPrimary 12 6 16 leftWing 
+ShootParticlesPrimary explode 0 0 0
+ShootParticlesPrimary cloud -2 0 0
+ShootParticlesPrimary explode -2 0 0
+ShootParticlesPrimary flame -2 0 0
+ShootParticlesSecondary explode 0 0 0
+ShootParticlesSecondary cloud -2 0 0
+ShootParticlesSecondary explode -2 0 0
+ShootParticlesSecondary flame -2 0 0
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 16
+AllowAllAmmo False
+AddAmmo planeammo_mk.4"mightymouse"rocket[heat]
+AddAmmo planeammo_hydra70rocket[he]
+AddAmmo dummyammo
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 10000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Pilot 22 11 0
+Passengers 1
+Passenger 1 45 7 0 nose -125 125 -75 10 pg_7.62mm_m134minigun Nose
+GunOrigin 1 50 -10 0
+// ------------------------------------------------------ Sounds ------------------------------------------------------
+StartSound Helicopter_start
+StartSoundLength 100
+PropSound Cobra_engine
+PropSoundLength 80
+StartSoundRange 100
+EngineSoundRange 400
+PlaceSoundPrimary PlaceSound1
+ShootSoundPrimary PG_Hydra
+ReloadSoundPrimary PG_reload
+PlaceSoundSecondary None
+ShootSoundSecondary PG_Rocket_fire1
+ReloadSoundSecondary PlaneBomb_reload1
+LockedOnSound Lock
+SoundTime 8
+LockedOnSoundRange 15
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts nose 1 parts_helicopterblade 1 parts_metalcockpit 2 parts_helicopterskid 1 parts_metaltail 16 iron
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+//AddDye 0 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 250 -80 -1 -8 150 36 16
+BulletDetection 5
+SquashMobs false
+//Collision points for breaking wings etc. upon crashing
+//Core
+CollisionPoint 56 -1 0 core
+CollisionPoint 70 12 0 core
+CollisionPoint 15 35 0 core
+CollisionPoint 43 -1 0 core
+CollisionPoint -30 -1 0 core
+CollisionPoint 12 8 0 core
+CollisionPoint -20 8 0 core
+CollisionPoint -30 35 0 core
+CollisionPoint -47 31 0 core
+CollisionPoint 0 54 0 core
+CollisionPoint 110 51 0 core
+CollisionPoint -110 51 0 core
+CollisionPoint 0 51 110 core
+CollisionPoint 0 51 -110 core
+CollisionPoint 78 51 78 core
+CollisionPoint 78 51 -78 core
+CollisionPoint -78 51 78 core
+CollisionPoint -78 51 -78 core
+CollisionPoint -30 -1 0 core
+CollisionPoint -83 6 0 core
+CollisionPoint -130 13 0 core
+CollisionPoint -144 44 0 core
+CollisionPoint -89 15 20 core
+CollisionPoint -89 15 -20 core
+IsExplosionWhenDestroyed true
+PlaceableOnLand true
+PlaceableOnSponge true
+CollisionDamageEnable false
+CollisionDamageThrottle 0.25
+CollisionDamageTimes 0
+HasFlare True
+FlareDelay 300
+FlareSound Flare
+TimeFlareUsing 5

@@ -1,0 +1,14 @@
+Name Parts_CaterpillarTrackPiece
+ShortName parts_caterpillartrackpiece
+Icon 4864_Parts_CaterpillarTrackPiece
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10005
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Misc
+StackSize 64
+RecipeOutput 6
+Recipe I iron
+// I 
+//III
+//I I

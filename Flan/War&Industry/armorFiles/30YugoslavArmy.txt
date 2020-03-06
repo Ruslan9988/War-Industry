@@ -1,0 +1,9 @@
+Name 30YugoslavArmy
+ShortName 30YugoslavArmy
+Icon YU
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.30YugoslavArmy
+ArmourTexture 30YugoslavArmy
+Description Camoflauge: Khaki_Year(s): 1960s-1990s_Project: Custom Armor 3.0

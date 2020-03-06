@@ -1,0 +1,101 @@
+// ------------------------------------------------------ Naming ------------------------------------------------------
+Name LightTank_TKS MG
+ShortName llighttank_tksmg
+ItemID 11520
+Description MAX HP:3550_BrowningM1919A4 Ammo
+// ------------------------------------------------------ Visuals ------------------------------------------------------
+Icon TKSMG
+Model evp2.TKS
+Texture TKS
+RotateWheels True
+//Third Person Camera 
+CameraDistance 4.0
+// ------------------------------------------------------ Movement ------------------------------------------------------
+//Throttle
+MaxThrottle 1.5
+MaxNegativeThrottle 0.75
+//Steering modifiers
+TurnLeftSpeed 0.5
+TurnRightSpeed 0.5
+//For calculating whether wheels are on the ground or not for driving
+WheelRadius 1.5
+//Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
+WheelPosition 0 -28 -8 -24
+WheelPosition 1 -28 -8 24
+WheelPosition 2 28 -8 24
+WheelPosition 3 28 -8 -24
+WheelSpringStrength 0.5
+//Bouncy bouncy
+Bounciness 0.3
+//If true, then all wheels will apply drive forces
+FourWheelDrive true
+//Tank mode activate
+Tank true
+// ------------------------------------------------------ Weaponry ------------------------------------------------------
+//Weapon types. Options are Missile, Bomb, Gun, Shell, None
+Primary Missile
+Secondary 
+//Time between shots in 1/20ths of seconds
+TurretOrigin 11 7.5 6.5
+TurretOriginOffset 0 0 0
+PlaceTimePrimary 160
+ShootDelayPrimary 2
+ReloadTimePrimary 140
+BulletSpread 0.75
+ShootDelaySecondary 
+BulletSpeed 7
+BulletSpread 0.50
+//Whether to alternate or fire all together
+AlternatePrimary False
+AlternateSecondary False
+//Firing modes. One of SemiAuto, FullAuto or Minigun
+ModePrimary FullAuto
+ModeSecondary FullAuto
+//Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
+ShootPointPrimary 21 7 7 turret 
+ShootPointSecondary 
+// ------------------------------------------------------ Inventory ------------------------------------------------------
+CargoSlots 0
+BombSlots 0
+MissileSlots 8
+AllowAllAmmo false
+AddAmmo browningm1919a4_ammo
+//Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
+FuelTankSize 1000
+// ------------------------------------------------------ Passengers ------------------------------------------------------
+Driver -2 -2 -3 -15 15 -10 20
+RotatedDriverOffset 0 0 0
+Passengers 0
+// ------------------------------------------------------- Sounds -------------------------------------------------------
+StartSound Hetzer_Idle
+StartSoundLength 40
+EngineSound Hetzer_Engine
+EngineSoundLength 40
+StartSoundRange 50
+EngineSoundRange 50
+BackSoundRange 50
+BackSoundLength 
+BackSound 
+PlaceSoundPrimary Fiat122B_PlaceSound
+ShootSoundPrimary 7,92mm
+ReloadSoundPrimary HMG_BrowningM1919A4Reload2
+// ------------------------------------------------------ Recipe ------------------------------------------------------
+//Recipe
+//Each section of the plane may have many parts
+//The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
+//rightWing, nose, turret, coreWheel, core
+AddRecipeParts turret 3 iron
+//Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
+//AddDye 0 gray
+// ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
+SetupPart core 3250 -23 -10 -16 45 23 32
+BulletDetection 5
+BrakeSound Truck_Stop
+BrakeSoundRange 10
+BrakeSoundLength 120
+IsExplosionWhenDestroyed true
+PlaceableOnLand true
+PlaceableOnSponge true
+CollisionDamageEnable true
+CollisionDamageThrottle 0.21
+CollisionDamageTimes 0

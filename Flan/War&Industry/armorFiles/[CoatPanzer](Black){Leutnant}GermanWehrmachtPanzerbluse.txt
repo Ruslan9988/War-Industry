@@ -1,0 +1,9 @@
+﻿Name German Wehrmacht Schütze Feldbluse
+ShortName GermanCoatLeutnantPanzer
+ItemID 31257
+Icon GermanPanzerCoat
+Colour 255 255 255
+Type Body
+Defence 0.15
+ArmourTexture WehrmachtPanzerLeutnant
+Model mineworld.GermanPanzerbluse

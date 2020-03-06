@@ -1,0 +1,421 @@
+{
+	"HL230_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "flansmod:HL230_PlaceSound" ]
+	},
+
+	"Hetzer_Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Hetzer_Engine" ]
+	},
+
+	"Hetzer_Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Hetzer_Idle" ]
+	},
+
+	"Hetzer_Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Hetzer_Shoot" ]
+	},
+
+	"2cmKwK30_Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:2cmKwK30_Shoot" ]
+	},
+
+	"7.5cmKwK37_Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:7.5cmKwK37_Shoot" ]
+	},
+
+	"7.5cmPak39_Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:7.5cmPak39_Shoot" ]
+	},
+
+	"7.5cmStuK40L": {
+		"category" : "player",
+		"sounds" : [ "flansmod:7.5cmStuK40L" ]
+	},
+
+	"128cmPak44_Shoot": {
+		"category" : "player",
+		"sounds" : [ "128cmPak44_Shoot" ]
+	},
+
+	"MG34_Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG34_Shoot" ]
+	},
+
+	"7,92mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:7,92mm" ]
+	},
+
+	"none": {
+		"category" : "player",
+		"sounds" : [ "flansmod:none" ]
+	},
+
+	"Pz,IIF_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "Pz,IIF_PlaceSound" ]
+	},
+
+	"Pz2_Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz2_Engine" ]
+	},
+
+	"Pz2_Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz2_Idle" ]
+	},
+
+	"Pz,III_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "Pz,III_PlaceSound" ]
+	},
+
+	"Pz3_Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz3_Engine" ]
+	},
+
+	"Pz3_Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz3_Idle" ]
+	},
+
+	"V-2-IS_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "V-2-IS_PlaceSound" ]
+	},
+
+	"Pz8_Engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz8_Engine" ]
+	},
+
+	"Pz8_Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz8_Idle" ]
+	},
+
+	"WoT_20-45mm": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_20-45mm" ]
+	},
+
+	"WoT_LightEngine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_LightEngine" ]
+	},
+
+	"WoT_WoT_LightEngine_Idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WoT_LightEngine_Idle" ]
+	},
+
+	"Fiat122B_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "Fiat122B_PlaceSound" ]
+	},
+
+	"A6120VD_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "A6120VD_PlaceSound" ]
+	},
+
+	"Ha-Go_IdleSound": {
+		"category" : "player",
+		"sounds" : [ "Ha-Go_IdleSound" ]
+	},
+
+	"Ha-Go_EngineSound": {
+		"category" : "player",
+		"sounds" : [ "Ha-Go_EngineSound" ]
+	},
+
+	"SA12200VD_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "SA12200VD_PlaceSound" ]
+	},
+
+	"Chi-Ha_IdleSound": {
+		"category" : "player",
+		"sounds" : [ "Chi-Ha_IdleSound" ]
+	},
+
+	"Chi-Ha_EngineSound": {
+		"category" : "player",
+		"sounds" : [ "Chi-Ha_EngineSound" ]
+	},
+
+	"M3APC_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "M3APC_PlaceSound" ]
+	},
+
+	"V-2-K_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "V-2-K_PlaceSound" ]
+	},
+
+	"Pz,VIB_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "Pz,VIB_PlaceSound" ]
+	},
+
+	"A15_PlaceSound": {
+		"category" : "player",
+		"sounds" : [ "A15_PlaceSound" ]
+	},
+
+	"88mmKwK36Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:88mmKwK36Fire" ]
+	},
+
+	"SturmFire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SturmFire" ]
+	},
+
+	"m1919": {
+		"category" : "player",
+		"sounds" : [ "flansmod:m1919" ]
+	},
+
+	"vz37fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:vz37fire" ]
+	},
+
+	"76mmZis3fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:76mmZis3fire" ]
+	},
+
+	"152mmML20fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:152mmML20fire" ]
+	},
+
+	"ATGun_movement": {
+		"category" : "player",
+		"sounds" : [ "flansmod:ATGun_movement" ]
+	},
+
+	"C96_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:C96_fire" ]
+	},
+
+	"C96_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:C96_reload" ]
+	},
+
+	"WeblyMk6": {
+		"category" : "player",
+		"sounds" : [ "flansmod:WeblyMk6" ]
+	},
+
+	"Webley_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Webley_fire" ]
+	},
+
+	"Webley_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Webley_reload" ]
+	},
+
+	"SMG_MP40_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SMG_MP40_fire" ]
+	},
+
+	"SMG_MP40_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SMG_MP40_reload" ]
+	},
+
+	"PanzerFaust_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PanzerFaust_fire" ]
+	},
+
+	"PanzerSchreck_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PanzerSchreck_fire" ]
+	},
+
+	"PanzerSchreck_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PanzerSchreck_reload" ]
+	},
+
+	"BulletDirt": {
+		"category" : "player",
+		"sounds" : [ "flansmod:BulletDirt" ]
+	},
+
+	"76,2mm_ZiS-3_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:76,2mm_ZiS-3_fire" ]
+	},
+
+	"76,2mm_ZiS-3_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:76,2mm_ZiS-3_reload" ]
+	},
+
+	"152mm_ML-20_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:152mm_ML-20_fire" ]
+	},
+
+	"152mm_ML-20_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:152mm_ML-20_reload" ]
+	},
+
+	"A39Tortoise_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:A39Tortoise_fire" ]
+	},
+
+	"A39Tortoise_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:A39Tortoise_reload" ]
+	},
+
+	"Chi-Ha_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Chi-Ha_fire" ]
+	},
+
+	"Chi-Ha_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Chi-Ha_reload" ]
+	},
+
+	"Ha-Go_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Ha-Go_fire" ]
+	},
+
+	"Ha-Go_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Ha-Go_reload" ]
+	},
+
+	"Pz,IIF_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz,IIF_reload" ]
+	},
+
+	"Pz3_75mm_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz3_75mm_fire" ]
+	},
+
+	"Pz3_75mm_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz3_75mm_reload" ]
+	},
+
+	"Pz6_Tiger_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz6_Tiger_fire" ]
+	},
+
+	"Pz6_Tiger_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz6_Tiger_reload" ]
+	},
+
+	"Pz8_Masu_75mm_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz8_Masu_75mm_fire" ]
+	},
+
+	"Pz8_Masu_75mm_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz8_Masu_75mm_reload" ]
+	},
+
+	"Pz8_Masu_128mm_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz8_Masu_128mm_fire" ]
+	},
+
+	"Pz8_Masu_128mm_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz8_Masu_128mm_reload" ]
+	},
+
+	"Pz38(t)_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz38(t)_fire" ]
+	},
+
+	"Pz38(t)_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pz38(t)_reload" ]
+	},
+
+	"StuG3_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:StuG3_fire" ]
+	},
+
+	"StuG3_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:StuG3_reload" ]
+	},
+
+	"SturmTiger_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SturmTiger_fire" ]
+	},
+
+	"SturmTiger_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:SturmTiger_reload" ]
+	},
+
+	"T34_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T34_fire" ]
+	},
+
+	"T34-76_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T34-76_reload" ]
+	},
+
+	"T-35_45mm_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T-35_45mm_fire" ]
+	},
+
+	"T-35_45mm_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:T-35_45mm_reload" ]
+	},
+
+	"TKS20mm_fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TKS20mm_fire" ]
+	},
+
+	"TKS20mm_reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:TKS20mm_reload" ]
+	}
+}

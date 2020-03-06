@@ -1,0 +1,9 @@
+Name CWFRGArmy
+ShortName CWFRGArmy
+Icon FRG
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.CWFRGArmy
+ArmourTexture CWFRGArmy
+Description Camoflauge: Olive Drab_Year(s): 1960s-1993_Project: Cold War Pack

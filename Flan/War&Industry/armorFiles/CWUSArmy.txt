@@ -1,0 +1,9 @@
+Name CWUSArmy
+ShortName CWUSArmy
+Icon US
+Colour 255 255 255
+Type Body
+Defence 0.1
+Model armorcg.CWUSArmy
+ArmourTexture CWUSArmy
+Description Camoflauge: M81 Woodland_Year(s): 1983-1998_Project: Cold War Pack

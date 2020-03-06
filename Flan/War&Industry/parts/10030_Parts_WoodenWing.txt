@@ -1,0 +1,14 @@
+Name Parts_WoodenWing
+ShortName parts_woodenwing
+Icon 4889_Parts_WoodenWing
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10030
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Wing
+StackSize 64
+RecipeOutput 2
+Recipe W parts_biplanewing
+  W
+   
+   

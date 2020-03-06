@@ -1,0 +1,9 @@
+Name German Stiefel
+ShortName GermanStiefel
+ItemID 31254
+Icon GermanBoots
+Colour 255 255 255
+Type Boots
+Defence 0.05
+ArmourTexture Stiefel
+Model mineworld.ArmorBoots

@@ -1,0 +1,94 @@
+{
+	"bullet": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bullet" ]
+	},
+	"MG42Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG42Reload" ]
+	},
+	"MiniUziShoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MiniUziShoot" ]
+	},
+	"Reload1": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Reload1" ]
+	},
+	"rifle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:rifle" ]
+	},
+	"MG42Loop": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG42Loop" ]
+	},
+	"bazookaReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:bazookaReload" ]
+	},
+	"flamethrower": {
+		"category" : "player",
+		"sounds" : [ "flansmod:flamethrower" ]
+	},
+	"G41shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:G41shoot" ]
+	},
+	"STG44shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:STG44shoot" ]
+	},
+	"MG34Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG34Shoot" ]
+	},
+	"MG42Fire": {
+		"category" : "player",
+		"sounds" : [ "flansmod:MG42Fire" ]
+	},
+	"7.5cmKwK40": {
+		"category" : "player",
+		"sounds" : [ "flansmod:7.5cmKwK40" ]
+	},
+	"m1carbineReload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:m1carbineReload" ]
+	},
+	"Tiger_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Tiger_idle" ]
+	},
+	"Tiger_move": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Tiger_move" ]
+	},
+	"8.8cmKwK36": {
+		"category" : "player",
+		"sounds" : [ "flansmod:8.8cmKwK36" ]
+	},
+	"Pzb39Reload": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pzb39Reload" ]
+	},
+	"Pzb39Shoot": {
+		"category" : "player",
+		"sounds" : [ "flansmod:Pzb39Shoot" ]
+	},
+	"halftrack_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:halftrack_idle" ]
+	},
+	"halftrack_engine": {
+		"category" : "player",
+		"sounds" : [ "flansmod:halftrack_engine" ]
+	},
+	"PanzerIV_idle": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PanzerIV_idle" ]
+	},
+	"PanzerIV_move": {
+		"category" : "player",
+		"sounds" : [ "flansmod:PanzerIV_move" ]
+	}
+}

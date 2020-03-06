@@ -1,0 +1,14 @@
+Name Parts_BombBay
+ShortName parts_bombbay
+Icon 4862_Parts_BombBay
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 10003
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Bay
+StackSize 64
+RecipeOutput 1
+//Recipe I iron D trapdoor
+//III
+//I I
+//IDI

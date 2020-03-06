@@ -1,0 +1,9 @@
+Name German Wehrmacht Stahlhelm
+ShortName GermanSSFeldmuetzeM43Feldgrau
+ItemID 31255
+Icon GermanM43CapFeldgrau
+Colour 255 255 255
+Type Helmet
+Defence 0.05
+ArmourTexture FeldmuetzeSSFeldgrau
+Model mineworld.GermanFeldmuetzeM43

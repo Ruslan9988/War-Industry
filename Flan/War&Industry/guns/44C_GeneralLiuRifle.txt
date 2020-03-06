@@ -1,0 +1,54 @@
+Name General Liu Rifle
+ShortName 44C_GeneralLiuRifle
+//The ammo this gun uses (shortName)
+Ammo 44C_GeneralLiuRifleAmmo
+Icon 44C_GeneralLiuRifle
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 55
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, M1GarandSniper = 20
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 3
+//Time in ticks between rounds
+ShootDelay 4
+ShootSound M1GarandShoot
+ReloadSound M1GarandReload
+Mode SemiAuto
+IgnoreArmorProbability 0.5
+IgnoreArmorDamageFactor 1.0
+//Modifiers
+MoveSpeedModifier 0.85
+//Bullet speed, default 3.0
+BulletSpeed 9.0
+Scope None
+Deployable False
+DeployedModel None
+Model W44C.GeneralLiuRifle
+Texture Skin44C_GeneralLiuRifle
+ModelScale 0.25
+AllowAttachments 
+AllowBarrelAttachments false
+AllowScopeAttachments false
+AllowStockAttachments false
+AllowGripAttachments false
+
+//Recoil
+Recoil 7
+RandomRecoilRange 1.5
+RandomRecoilYawRange 1.5
+DecreaseRecoil 2.0
+DecreaseRecoilYaw 1.0
+
+Description The first Chinese Semi-Automatic rifle.
+
+ShowAccuracy true
+ShowReloadTime true
+DistortSound False
+ReloadSoundRange 5
+GunSoundRange 400
+
+//Server Stuff
+GunCategory 1
